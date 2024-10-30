@@ -1,0 +1,42 @@
+.highlight {
+    color: #EEEEee;
+    font-weight: bold;
+}
+#special {
+    background-color: #31363f;
+    padding: 10px;
+    text-align: center;
+
+}
+[href*="linkedin"] {
+    color: #76ABAE;
+    font-style: italic;
+}
+[href*="instagram"] {
+    color: #76ABAE;
+    font-style: italic;
+}
+a:hover {
+    color: #EEEEEE;
+    text-decoration: none;
+}
+p::first-line {
+    font-weight: bold;
+    font-size: larger;
+}
+.bawah {
+    color: #EEEEEE;
+}
+@media (max-width: 768px) {
+    section {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+}
+@media (max-width: 1024px) {
+    section {
+      margin: 20px 100px;
+      padding: 20px;
+    }
+} 
